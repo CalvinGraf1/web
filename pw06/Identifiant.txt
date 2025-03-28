@@ -1,0 +1,9 @@
+calvin.graf1, e81e99a792a27b44
+calvin.graf2, 9dfb78b62389ad5e
+
+Se renommer nextTimeout
+flag4:529b16f1a36ecd30
+
+Envoyer message vide, puis inspecter, "Réponse", cliquer sur l'erreur puis dans "Réponse" on trouve le conversationId du receveur donc Elon Musk. On met cet id dans l'URL et voilà
+flag5:8fc83c026f6847fc
+

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --grey-100: #F3F4F6;
+  --grey-200: #E5E7EB;
+  --grey-400: #9CA3AF;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  margin: 86px;
+}
+
+/* J'ai décidé de modifier les titres déjà existant au lieu de créer de nouvelles classes "subtitle", etc. */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 1.5; /* Taille de la ligne */
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.25;
+}
+
+h3, h5, h6 {
+  font-weight: normal;
+}
+
+h4, h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+#hits-of-moment {
+  margin: 8px 0;
+}
+
+#playlist-info {
+  display: flex;
+  flex-flow: row;
+}
+
+#playlist {
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+}
+
+#text-playlist {
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  padding-left: 32px;
+}
+
+#playlist-info img {
+  width: 250px;
+  height: 250px;
+}
+
+.song {
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+
+#queue {
+  position: fixed;
+  background-color: var(--grey-100);
+  border-left: 2px solid var(--grey-200);
+  right: 0;
+  top: 0;
+  height: calc(100% - 80px); /* 100% de la hauteur - les 80px du footer */
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#next-play-label {
+  align-self: flex-start;
+  margin: 32px 0 0 32px;
+}
+
+#queue-label {
+  color: var(--grey-400);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* permet de centrer le div au milieu du div */
+}
+
+#player {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  border-top: 2px solid var(--grey-200);
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16px;
+}
+ 
+#player > div {
+  flex: 1;
+}
+
+#current-song {
+  display: flex;
+}
+
+#current-song-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding-left: 16px;
+}
+
+#current-song img {
+  height: 80px;
+  width: auto;
+}
+
+#player-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#player-choice img {
+  width: 40px;
+  height: 40px;
+  margin-right: 32px;
+}
+
+/* Supprime la marge à droite pour la dernière image */
+#player-choice img:last-child {
+  margin-right: 0;
+}
+
+#player-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: left;
+}
+
+#player-info img {
+  width: 150px;
+}
+
+
+

@@ -1,0 +1,15 @@
+**/*~undo-tree~
+**/*~
+**/.DS_Store
+node_modules
+package-lock.json
+
+.idea/libraries/
+.idea/shelf/
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/modules.xml
+.idea/workspace.xml
+*.iws
+*.iml
+*.ipr
